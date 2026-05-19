@@ -1,0 +1,24 @@
+{
+    "version": "3.6.16",
+    "description": "A lightweight Lenovo Vantage and Hotkeys replacement for Lenovo Legion laptops",
+    "homepage": "https://github.com/SSC-STUDIO/LenovoLegionToolkit",
+    "license": "GPL-3.0",
+    "suggest": {
+        ".NET Desktop Runtime 10.0": "versions/windowsdesktop-runtime-lts"
+    },
+    "url": "https://github.com/SSC-STUDIO/LenovoLegionToolkit/releases/download/v3.6.16/LenovoLegionToolkit_v3.6.16_Setup.exe",
+    "hash": "07407704427bb5b9b9e87c5a256c41fe60a423537d3b16c0bcb2ae0fe27c7acf",
+    "innosetup": true,
+    "shortcuts": [
+        [
+            "Lenovo Legion Toolkit.exe",
+            "Lenovo Legion Toolkit"
+        ]
+    ],
+    "checkver": {
+        "github": "SSC-STUDIO/LenovoLegionToolkit"
+    },
+    "autoupdate": {
+        "url": "https://github.com/SSC-STUDIO/LenovoLegionToolkit/releases/download/v$version/LenovoLegionToolkit_v$version_Setup.exe"
+    }
+}
