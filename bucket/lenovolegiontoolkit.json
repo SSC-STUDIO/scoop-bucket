@@ -1,24 +1,24 @@
 {
-    "version": "3.7.1",
-    "description": "A lightweight Lenovo Vantage and Hotkeys replacement for Lenovo Legion laptops",
-    "homepage": "https://github.com/SSC-STUDIO/LenovoLegionToolkit",
-    "license": "GPL-3.0",
-    "suggest": {
-        ".NET Desktop Runtime 10.0": "versions/windowsdesktop-runtime-lts"
-    },
-    "url": "https://github.com/SSC-STUDIO/LenovoLegionToolkit/releases/download/v3.7.1/LenovoLegionToolkit_v3.7.1_Setup.exe",
-    "hash": "6ac565c6d0b07657604d47252baa237113f04f49ba11575dd8d7e06bfc143f4d",
-    "innosetup": true,
-    "shortcuts": [
-        [
-            "Lenovo Legion Toolkit.exe",
-            "Lenovo Legion Toolkit"
-        ]
-    ],
-    "checkver": {
-        "github": "SSC-STUDIO/LenovoLegionToolkit"
-    },
-    "autoupdate": {
-        "url": "https://github.com/SSC-STUDIO/LenovoLegionToolkit/releases/download/v$version/LenovoLegionToolkit_v$version_Setup.exe"
-    }
+    "version":  "3.8.0",
+    "description":  "Universal Device Toolkit is a lightweight hardware control toolkit with plugin extensions for supported Lenovo laptops.",
+    "homepage":  "https://github.com/SSC-STUDIO/UniversalDeviceToolkit",
+    "license":  "GPL-3.0",
+    "suggest":  {
+                    ".NET Desktop Runtime 10.0":  "versions/windowsdesktop-runtime-lts"
+                },
+    "url":  "https://github.com/SSC-STUDIO/UniversalDeviceToolkit/releases/download/v3.8.0/LenovoLegionToolkit_v3.8.0_Setup.exe",
+    "hash":  "dd0cc08bb641e5b6bd23082cce72bc1030463e85e1c32ddb504967c0bef43026",
+    "innosetup":  true,
+    "shortcuts":  [
+                      [
+                          "Universal Device Toolkit.exe",
+                          "Universal Device Toolkit"
+                      ]
+                  ],
+    "checkver":  {
+                     "github":  "SSC-STUDIO/UniversalDeviceToolkit"
+                 },
+    "autoupdate":  {
+                       "url":  "https://github.com/SSC-STUDIO/UniversalDeviceToolkit/releases/download/v$version/LenovoLegionToolkit_v$version_Setup.exe"
+                   }
 }
